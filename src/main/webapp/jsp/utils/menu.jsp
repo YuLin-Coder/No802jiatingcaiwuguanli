@@ -1,0 +1,146 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+var menus = [
+
+	{
+        "backMenu":[
+{
+"child":[
+{
+"buttons":[
+"查看",
+"新增",
+"修改",
+"删除",
+],
+"menu":"成员信息",
+"menuJump":"列表",
+"tableName":"yonghu"
+}
+],
+"menu":"成员管理"
+}
+            ,{
+                "child":[
+                    {
+                        "buttons":[
+                            "查看",
+                            "新增",
+                            "修改",
+                            "删除",
+                        ],
+                        "menu":"家庭信息",
+                        "menuJump":"列表",
+                        "tableName":"dictionary_jt"
+                    }
+                ],
+                "menu":"家庭管理"
+            }
+            ,{
+                "child":[
+                    {
+                        "buttons":[
+                            "查看",
+                            "新增",
+                            "修改",
+                            "删除",
+                        ],
+                        "menu":"家庭账本管理",
+                        "menuJump":"列表",
+                        "tableName":"jiatingzhangben"
+                    }
+                ],
+                "menu":"家庭账本管理"
+            }
+            ,{
+                "child":[
+                    {
+                        "buttons":[
+                            "查看",
+                            "新增",
+                            "修改",
+                            "删除",
+                        ],
+                        "menu":"通知管理",
+                        "menuJump":"列表",
+                        "tableName":"tongzhi"
+                    }
+                ],
+                "menu":"通知管理"
+            }
+        ],
+        "frontMenu":[
+
+        ],
+        "roleName":"管理员",
+        "tableName":"users"
+    }
+	,
+		{
+        "backMenu":[
+{
+"child":[
+{
+"buttons":[
+"查看"
+],
+"menu":"成员信息",
+"menuJump":"列表",
+"tableName":"yonghu"
+}
+],
+"menu":"成员管理"
+}
+            ,{
+                "child":[
+                    {
+                        "buttons":[
+                            "查看"
+                        ],
+                        "menu":"家庭信息",
+                        "menuJump":"列表",
+                        "tableName":"dictionary_jt"
+                    }
+                ],
+                "menu":"家庭管理"
+            }
+            ,{
+                "child":[
+                    {
+                        "buttons":[
+                            "查看",
+                            "新增",
+                            "修改",
+                            "删除",
+                            "报表"
+                        ],
+                        "menu":"家庭账本管理",
+                        "menuJump":"列表",
+                        "tableName":"jiatingzhangben"
+                    }
+                ],
+                "menu":"家庭账本管理"
+            }
+            ,{
+                "child":[
+                    {
+                        "buttons":[
+                            "查看"
+                        ],
+                        "menu":"通知管理",
+                        "menuJump":"列表",
+                        "tableName":"tongzhi"
+                    }
+                ],
+                "menu":"通知管理"
+            }
+        ],
+        "frontMenu":[
+
+        ],
+        "roleName":"用户",
+        "tableName":"yonghu"
+    }
+];
+
+var hasMessage = '';
